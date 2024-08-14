@@ -663,7 +663,7 @@ select {
     color: rgb(230, 83, 60);
     font-size: 3.5rem;
     font-weight: 800;
-    margin-top: 65px;
+    margin-top: 58px;
     margin-bottom: 15px;
 }
 
@@ -699,12 +699,12 @@ select {
 
 .footer-hr {
 
-    width: 90%;
 
-    margin-top: 40px;
-
+    width: 65%;
+    margin-top: 40px; 
     border: 2px solid rgba(255, 255, 255, 0.1);
-    margin-left: 20px;
+    margin-left: 250px;
+
 }
 
 .footer-text {
