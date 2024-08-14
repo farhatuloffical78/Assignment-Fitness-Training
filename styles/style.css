@@ -1,0 +1,1098 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+
+body {
+    background: rgb(0, 0, 0);
+    padding: 0;
+    margin: 0;
+    font-family: "Inter";
+}
+
+.primary {
+    font-family: "Inter";
+    margin: 0px;
+}
+
+.btn1 {
+    border-radius: 42px;
+    border: none;
+    background: rgb(230, 83, 60);
+    margin-right: 12px;
+    padding: 10px 25px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.btn2 {
+
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    background-color: transparent;
+    padding: 10px 25px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.btn3 {
+    border-radius: 42px;
+    border: none;
+    background: rgb(230, 83, 60);
+    padding: 10px 40px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.btn4 {
+    border-radius: 42px;
+    border: none;
+    background: rgb(230, 83, 60);
+    padding: 10px 40px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.icon-property {
+    display: none;
+}
+
+/* Shared styles end */
+
+/* Header section Navbar */
+.head {
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+}
+
+.menu {
+
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-menu {
+    display: flex;
+    padding: 0;
+    margin: 10px 0 10px 0;
+    list-style: none;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+}
+
+.text1 {
+    color: rgb(230, 83, 60);
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+.nav-links {
+    text-decoration: none;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 4px;
+    padding-right: 30px;
+    color: black;
+
+}
+
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    align-items: center;
+
+}
+
+.nav-menu .nav-part {
+    margin: 0;
+}
+
+.text2 {
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.home {
+    display: inline-block;
+    border: 2px solid rgb(230, 83, 60);
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    text-align: center;
+    padding: 8px 20px;
+    color: white;
+}
+
+/* Banner container */
+.banner {
+    max-width: 1400px;
+    height: 750px;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.btn-container {
+    display: flex;
+}
+
+.banner-part1 {
+
+    margin-top: 100px;
+}
+
+.banner-part2 {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-left: 60px;
+
+}
+
+.image {
+    position: relative;
+}
+
+.image1 img {
+    width: 100%;
+    margin-top: 0px;
+    height: 715px;
+    margin-left: 50px;
+}
+
+
+#secondery {
+    display: inline;
+    font-family: 'Miama';
+    font-weight: normal;
+    font-size: 8rem;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+}
+
+.text3 {
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    margin: 0px;
+    font-weight: 850;
+
+
+}
+
+.description {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 10px;
+    font-size: 1.7rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+
+}
+
+.one {
+    font-family: "Inter";
+    margin-top: -545px;
+    margin-left: 340px;
+    padding: 0;
+    position: absolute;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.title1 {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0px 15px;
+    font-size: 3.2rem;
+    font-weight: 900;
+    text-align: left;
+}
+
+.description2 {
+    color: rgba(255, 255, 255, 0.65);
+    margin: 0;
+    padding: 0 15px 20px 20px;
+    font-size: 0.9rem;
+    font-weight: 400;
+
+}
+
+.two {
+    font-family: "Inter";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    position: absolute;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    margin-left: -17px;
+    margin-top: -150px;
+}
+
+.circle {
+    margin-left: 15px;
+    border-radius: 50%;
+    background: rgb(230, 83, 60);
+    width: 35px;
+    height: 35px;
+}
+
+.text {
+    margin-left: 5px;
+}
+
+.title2 {
+    color: rgb(255, 255, 255);
+    margin: 10px 25px 5px 5px;
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: left;
+}
+
+.description3 {
+    color: rgba(255, 255, 255, 0.65);
+    margin: 10px 30px 10px 5px;
+    font-size: 0.9rem;
+    font-weight: 400;
+
+}
+
+
+.main {
+    max-width: 1380px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+
+
+}
+
+.title4 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+
+}
+
+.description4 {
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+/* change habit section */
+.multi-image-container {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 150px;
+
+}
+
+.multi-image-container img {
+    border-radius: 50%;
+}
+
+.title5 {
+    color: rgb(255, 255, 255);
+
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.description5 {
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 400;
+
+}
+
+/* extra run section */
+
+.run-extra {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    height: 371px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+}
+
+.runnig-text {
+    padding: 50px;
+}
+
+.runnig-image {
+
+    display: flex;
+    padding: 30px 30px 30px 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.runnig-image img {
+    border-radius: 18px;
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.title6 {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 900;
+
+}
+
+.description6 {
+    color: rgba(255, 255, 255, 0.5);
+
+    font-size: 1.2rem;
+    font-weight: 400;
+
+}
+
+.bmi {
+
+    background: rgb(34, 34, 34);
+    height: 500px;
+    display: flex;
+    margin-top: 40px;
+}
+
+.bmi-calulation {
+    margin: 10px;
+}
+
+.table-div,
+.input-div {
+    width: 50%;
+}
+
+.table-div {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.input-div {
+    margin-top: 20px;
+    text-align: left;
+}
+
+table {
+    margin: 0 auto;
+    width: 50%;
+    border-collapse: collapse;
+    /* Ensures borders between cells are collapsed into a single border */
+
+}
+
+th,
+td {
+    font-size: 1.2rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 8px;
+    /* Adds padding inside each cell */
+    text-align: left;
+    /* Aligns text to the left */
+    color: rgba(255, 255, 255, 0.5);
+}
+
+th {
+    color: white;
+}
+
+.bmi-text {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.title12 {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 40px;
+
+}
+
+.title13 {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+
+}
+
+.description12 {
+    color: rgba(255, 255, 255, 0.5);
+
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+    font-weight: 400;
+
+}
+
+input[type="text"],
+select {
+
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    padding: 10px;
+    /* Adjust padding as needed */
+    border: none;
+    /* Remove the border */
+    font-size: 14px;
+    /* Optional: adjust the font size as needed */
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+
+input[type="text"] {
+    width: calc(40% - 22px);
+}
+
+select {
+    width: calc(40% - 22px);
+    padding-right: 30px;
+}
+
+#text-selector {
+    width: calc(80% - 28px);
+
+}
+
+.custom-select {
+
+    margin-right: 20px;
+}
+
+/* Price */
+.price-text {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.price-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+
+
+}
+
+.card {
+    padding: 30px;
+    background: rgb(34, 34, 34);
+    margin-top: 30px;
+    border-radius: 8px;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.title8 {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.title9 {
+    color: rgb(230, 83, 60);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 10px;
+
+}
+
+.icon-spacing {
+
+    color: white;
+    margin-right: 8px;
+    /* Adjust the value as needed */
+}
+
+.title10 {
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+}
+
+.description11 {
+    color: rgba(255, 255, 255, 0.5);
+
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+/* team */
+.team {
+    margin-bottom: 50px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.team-member {
+    position: relative;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.member {
+    height: calc(100% - 20px);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.member img {
+    width: 100%;
+    border-radius: 18px;
+    display: block;
+    height: 360px;
+}
+
+.name1 {
+    font-family: "Inter";
+    position: absolute;
+    margin-top: -480px;
+    margin-left: 40px;
+}
+
+.name2 {
+    font-family: "Inter";
+    position: absolute;
+    margin-top: -480px;
+    margin-left: 490px;
+}
+
+.name3 {
+    font-family: "Inter";
+    position: absolute;
+    margin-top: -480px;
+    margin-left: 935px;
+}
+
+.name4 {
+    font-family: "Inter";
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 40px;
+}
+
+.name5 {
+    font-family: "Inter";
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 490px;
+}
+
+.name6 {
+    font-family: "Inter";
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 935px;
+}
+
+.title7 {
+    color: rgb(255, 255, 255);
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.description7 {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 5px;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+/* footer */
+.footer {
+    background: rgba(255, 255, 255, 0.1);
+    height: 480px;
+}
+
+.footer-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 220px;
+    padding: 20px;
+}
+
+.text4 {
+    color: rgb(230, 83, 60);
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-top: 65px;
+    margin-bottom: 15px;
+}
+
+.description9 {
+    color: rgba(255, 255, 255, 0.5);
+
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: 400;
+
+    letter-spacing: 0.5px;
+
+}
+
+.text5 {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 55px;
+
+}
+
+.description10 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.5rem;
+    font-weight: 400;
+
+}
+
+
+
+.footer-hr {
+
+    width: 90%;
+
+    margin-top: 40px;
+
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin-left: 20px;
+}
+
+.footer-text {
+    margin-left: -80px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 30px;
+
+}
+
+
+/* responsive */
+
+@media screen and (max-width:776px) {
+    .navber {
+        display: none;
+
+    }
+
+    .text1 {
+        margin-left: 10px;
+    }
+
+    .icon-property {
+        margin-bottom: 20px;
+        display: block;
+        margin-right: 10px;
+    }
+
+    .banner {
+        flex-direction: column;
+        margin-left: 15px;
+
+    }
+
+    .banner-part1 {
+        margin-top: 20px;
+    }
+
+    .text3 {
+        font-size: 2.5rem;
+
+
+    }
+
+    #secondery {
+        font-size: 3.5rem;
+    }
+
+    .btn1,
+    .btn2 {
+        font-size: 1.2rem;
+        padding: 10px 20px;
+
+    }
+
+    .description {
+        font-size: 1.6rem;
+    }
+
+    .image1 img {
+        margin-left: -195px;
+        width: 270px;
+        height: 400px;
+
+    }
+
+    .one {
+
+        margin-top: -380px;
+        margin-left: -50px;
+
+    }
+
+    .title1 {
+        font-size: 2rem;
+        margin-top: 10px;
+        padding: 0px 12px;
+    }
+
+    .description2 {
+        font-size: 0.8rem;
+        padding: 5px 12px;
+    }
+
+    .two {
+        margin-top: -210px;
+        margin-left: -190px;
+    }
+
+    .title2 {
+        font-size: 1.5rem;
+        margin: 5px 15px 5px 5px;
+    }
+
+    .description3 {
+        margin: 5px 15px 5px 5px;
+    }
+
+    .circel {
+
+        margin-left: 10px;
+
+
+        width: 30px;
+        height: 30px;
+    }
+
+    .multi-image-container {
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .title4 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+
+    }
+
+    .description4 {
+
+
+        font-size: 1rem;
+
+
+    }
+
+    .run-extra {
+        flex-direction: column;
+        margin: 0 40px 0 40px;
+        height: 590px;
+        margin-top: 50px;
+        justify-content: flex-start;
+    }
+
+    .runnig-text {
+        padding: 30px;
+
+
+    }
+
+    .main {
+        margin-top: 70px;
+        margin-bottom: 30px;
+    }
+
+    .btn3 {
+        width: 100%;
+        padding: 20px 0 20px 0px;
+
+    }
+
+    .title6 {
+        font-size: 2rem;
+
+    }
+
+    .description6 {
+        font-size: 1rem;
+
+
+    }
+
+    .team {
+        margin-top: 40px;
+
+
+    }
+
+    .team-member {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .member {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, auto);
+        padding: 10px;
+
+    }
+
+    .hide-small,
+    .name1,
+    .name4 {
+        display: none;
+    }
+
+    #img2 {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    #img5 {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    #img3 {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+
+    #img6 {
+        grid-area: 4 / 1 / 5 / 2;
+    }
+
+    .name2 {
+        margin-top: -920px;
+        margin-left: 22px;
+    }
+
+    .name5 {
+        margin-top: -640px;
+        margin-left: 22px;
+    }
+
+    .name3 {
+        margin-top: -360px;
+        margin-left: 22px;
+    }
+
+    .name6 {
+        margin-top: -80px;
+        margin-left: 22px;
+    }
+
+    .member img {
+
+        height: 260px;
+    }
+
+    .footer {
+        height: 660px;
+    }
+
+    .footer-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+        padding: 20px;
+        height: auto;
+    }
+
+    .text4 {
+
+        font-size: 2.9rem;
+
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .description9 {
+
+
+        margin-top: 10px;
+        font-size: 1rem;
+
+    }
+
+    .text5 {
+
+        font-size: 1.6rem;
+        margin-top: 10px;
+
+    }
+
+    .description10 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 1.1rem;
+
+    }
+
+    .footer-hr {
+
+        width: 92%;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .footer-text {
+
+        text-align: left;
+        margin-left: 15px;
+        font-size: 1rem;
+
+        margin-top: 10px;
+
+    }
+
+
+    .price-card {
+
+        grid-template-columns: 1fr;
+        gap: 10px;
+
+    }
+
+    .card {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .description11 {
+        margin-left: 10px;
+        font-size: 1.3rem;
+    }
+
+    .bmi {
+        flex-direction: column;
+        height: 760px;
+
+    }
+
+    .table-div,
+    .input-div {
+        width: 100%;
+    }
+
+    table {
+        margin: 10px;
+        width: 100%;
+        border-collapse: collapse;
+        /* Ensures borders between cells are collapsed into a single border */
+
+    }
+
+    .title13 {
+
+        font-size: 1.5rem;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .title12 {
+        text-align: left;
+        font-size: 1.5rem;
+        margin-bottom: 40px;
+        margin-left: 10px;
+
+    }
+
+    .description12 {
+        color: rgba(255, 255, 255, 0.5);
+
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+        font-weight: 400;
+
+    }
+
+    .description9 {
+        margin-left: 5px;
+    }
+
+    input[type="text"] {
+        width: calc(50% - 22px);
+        margin-left: 10px;
+    }
+
+    select {
+        width: 45%;
+
+
+    }
+
+    #text-selector {
+        width: calc(100% - 18px);
+        margin-left: 10px;
+
+    }
+
+    .custom-select {
+        margin-left: 10px;
+        margin-right: 2px;
+    }
+
+    .btn4 {
+        padding: 20px 0 20px 0px;
+        width: 50%;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .price-text {
+        margin-top: 10px;
+
+    }
+
+}
