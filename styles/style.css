@@ -60,7 +60,7 @@ body {
     display: none;
 }
 
-/* Shared styles end */
+            /* Shared styles end */
 
 /* Header section Navbar */
 .head {
@@ -413,7 +413,6 @@ table {
     margin: 0 auto;
     width: 50%;
     border-collapse: collapse;
-    /* Ensures borders between cells are collapsed into a single border */
 
 }
 
@@ -422,9 +421,7 @@ td {
     font-size: 1.2rem;
     border: 1px solid rgba(255, 255, 255, 0.1);
     padding: 8px;
-    /* Adds padding inside each cell */
     text-align: left;
-    /* Aligns text to the left */
     color: rgba(255, 255, 255, 0.5);
 }
 
@@ -469,11 +466,8 @@ select {
     background: rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.6);
     padding: 10px;
-    /* Adjust padding as needed */
     border: none;
-    /* Remove the border */
     font-size: 14px;
-    /* Optional: adjust the font size as needed */
     box-sizing: border-box;
     margin-bottom: 10px;
     margin-right: 10px;
@@ -543,7 +537,6 @@ select {
 
     color: white;
     margin-right: 8px;
-    /* Adjust the value as needed */
 }
 
 .title10 {
