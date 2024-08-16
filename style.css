@@ -63,7 +63,6 @@ body {
     border-radius: 42px;
     border: none;
     background: rgb(230, 83, 60);
-
     padding: 10px 40px;
     color: rgb(255, 255, 255);
     font-size: 1rem;
@@ -147,7 +146,7 @@ body {
     display: none;
 }
 
-/* Banner Section */
+/* section: banner */
 
 .BannerContainer {
     max-width: 1210px;
@@ -281,7 +280,7 @@ body {
 
 }
 
-/* change the habit */
+/* change habit part*/
 main {
     margin-top: 40px;
 }
@@ -314,7 +313,6 @@ main {
 
 .multi-image-container {
     display: flex;
-
     justify-content: center;
     align-items: center;
     margin-top: 50px;
@@ -328,7 +326,6 @@ main {
 
 .title5 {
     color: rgb(255, 255, 255);
-
     font-size: 1.1rem;
     font-weight: 600;
     text-align: center;
@@ -363,12 +360,12 @@ main {
 
 }
 
-.runnig-text {
+.running-text {
     padding: 40px;
 
 }
 
-.runnig-image {
+.running-image {
 
     display: flex;
     padding: 30px 30px 30px 30px;
@@ -376,7 +373,7 @@ main {
     justify-content: center;
 }
 
-.runnig-image img {
+.running-image img {
     border-radius: 18px;
     width: 100%;
     height: 100%;
@@ -546,8 +543,6 @@ select {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-
-
 }
 
 .card {
@@ -581,7 +576,7 @@ select {
 
     color: white;
     margin-right: 8px;
-    /* Adjust the value as needed */
+    
 }
 
 .title10 {
@@ -634,12 +629,7 @@ select {
 
 }
 
-#img1,
-#img2,
-#img3,
-#img4,
-#img5,
-#img6 {
+#img1,#img2,#img3,#img4,#img5,#img6 {
     position: relative;
     display: flex;
     align-items: center;
@@ -649,12 +639,7 @@ select {
     min-height: 200px;
 }
 
-.name1,
-.name2,
-.name3,
-.name4,
-.name5,
-.name6 {
+.name1,.name2,.name3,.name4,.name5,.name6 {
     position: absolute;
     bottom: 15px;
     left: 10px;
@@ -740,7 +725,6 @@ select {
     font-weight: 400;
 
 }
-
 
 .footer-text {
     margin-left: -80px;

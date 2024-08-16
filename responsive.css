@@ -71,9 +71,6 @@
         font-size: 1.1rem;
     }
 
-
-
-
     .multi-image-container {
         flex-direction: column;
         gap: 30px;
@@ -87,11 +84,7 @@
     }
 
     .description4 {
-
-
         font-size: 1rem;
-
-
     }
 
     .running {
@@ -106,7 +99,7 @@
         border: 2px solid pink;
     }
 
-    .runnig-text {
+    .running-text {
         padding: 20px;
 
     }
@@ -120,33 +113,26 @@
         margin-top: 20px;
     }
 
-    .btn1,
-    .btn2 {
+    .btn1,.btn2 {
         margin-bottom: 0px;
     }
 
     .btn3 {
         width: 100%;
         padding: 20px 0 20px 0px;
-
-
     }
 
     .title6 {
         margin-top: 5px;
         font-size: 2rem;
-
     }
 
     .description6 {
         font-size: 1rem;
-
-
     }
 
     .team {
         margin-top: 40px;
-
 
     }
 
@@ -163,7 +149,7 @@
         margin-top: 0;
     }
 
-    /* meet the team */
+    /* team part */
     .member {
         padding: 10px;
         margin-right: 2px;
@@ -178,8 +164,7 @@
         margin-right: 10px;
     }
 
-    #img1,
-    #img4 {
+    #img1,#img4 {
         display: none;
     }
 
@@ -239,13 +224,10 @@
         margin-bottom: 10px;
     }
 
-
-
     .text5 {
 
         font-size: 1.6rem;
         margin-top: 10px;
-
     }
 
     .description10 {
@@ -265,7 +247,6 @@
         text-align: left;
         margin-left: 15px;
         font-size: 1rem;
-
         margin-top: 10px;
 
     }
@@ -387,7 +368,7 @@
         margin-top: 10px;
         margin-left: 10px;
     }
-
+    
     .price-text {
         margin-top: 370px;
     }
