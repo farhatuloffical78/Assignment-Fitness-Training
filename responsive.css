@@ -1,0 +1,396 @@
+@media screen and (max-width:776px) {
+
+    .header {
+        padding: 5px;
+    }
+
+    .custom-navbar-container {
+        display: none;
+    }
+
+    .BannerContainer {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .TextSection,
+    .ImageSection {
+        width: 100%;
+        margin-left: 10px;
+
+    }
+
+    .custom-menu-icon {
+        display: block;
+        margin-right: 8px;
+    }
+
+    .Subtitle {
+        margin-right: 10px;
+        font-size: 1.1rem;
+    }
+
+    .InfoBox1 {
+        margin-top: -540px;
+        margin-left: 205px;
+        padding-right: 5px;
+
+    }
+
+    .HeaderTitle {
+        font-size: 2.9rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .Navbermenu {
+        margin-bottom: 30px;
+    }
+
+    .TitleText {
+        margin-top: 10px;
+        font-size: 2.5rem;
+        padding: 0px 15px;
+    }
+
+    .TextContent {
+        padding: 0 14px 18px 18px;
+    }
+
+    .ImageSection img {
+        margin-left: 10px;
+        height: 100%;
+    }
+
+    .InfoBox2 {
+        margin-left: 5px;
+        margin-top: -320px;
+    }
+
+    .Subtitle {
+        font-size: 1.1rem;
+    }
+
+
+
+
+    .multi-image-container {
+        flex-direction: column;
+        gap: 30px;
+
+    }
+
+    .title4 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+
+    }
+
+    .description4 {
+
+
+        font-size: 1rem;
+
+
+    }
+
+    .running {
+        margin-bottom: 30px
+    }
+
+    .run-extra {
+        flex-direction: column;
+        margin: 0 30px 0 30px;
+        height: 550px;
+        justify-content: flex-start;
+        border: 2px solid pink;
+    }
+
+    .runnig-text {
+        padding: 20px;
+
+    }
+
+    main {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .title5 {
+        margin-top: 20px;
+    }
+
+    .btn1,
+    .btn2 {
+        margin-bottom: 0px;
+    }
+
+    .btn3 {
+        width: 100%;
+        padding: 20px 0 20px 0px;
+
+
+    }
+
+    .title6 {
+        margin-top: 5px;
+        font-size: 2rem;
+
+    }
+
+    .description6 {
+        font-size: 1rem;
+
+
+    }
+
+    .team {
+        margin-top: 40px;
+
+
+    }
+
+    .team-member {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .bmi-text {
+        margin-top: 10px;
+    }
+
+    .title12 {
+        margin-top: 0;
+    }
+
+    /* meet the team */
+    .member {
+        padding: 10px;
+        margin-right: 2px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 10px;
+
+    }
+
+    .team-member {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #img1,
+    #img4 {
+        display: none;
+    }
+
+    #img2 {
+        order: 1;
+    }
+
+    #img5 {
+        order: 2;
+    }
+
+    #img3 {
+        order: 3;
+    }
+
+    #img6 {
+        order: 4;
+
+    }
+
+    /* .name2{
+        margin-top: -920px;
+        margin-left: 22px;
+    }
+    .name5{
+        margin-top: -640px;
+        margin-left: 22px;
+    }
+    .name3{
+        margin-top: -360px;
+        margin-left: 22px;
+    }
+    .name6{
+        margin-top: -80px;
+        margin-left: 22px;
+    } */
+    /* .member img {
+     
+        height: 260px; 
+    } */
+    .footer {
+        height: 660px;
+    }
+
+    .footer-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+        padding: 20px;
+        height: auto;
+    }
+
+    .text4 {
+
+        font-size: 2.9rem;
+        margin-left: 2px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+
+
+    .text5 {
+
+        font-size: 1.6rem;
+        margin-top: 10px;
+
+    }
+
+    .description10 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 1.1rem;
+
+    }
+
+    .footer hr {
+        width: 90%;
+
+    }
+
+    .footer-text {
+
+        text-align: left;
+        margin-left: 15px;
+        font-size: 1rem;
+
+        margin-top: 10px;
+
+    }
+
+
+    .price-card {
+
+        grid-template-columns: 1fr;
+        gap: 10px;
+
+    }
+
+    .card {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .description11 {
+        margin-left: -10px;
+        font-size: 1rem;
+    }
+
+    .bmi {
+        flex-direction: column;
+        height: 710px;
+        padding: 5px;
+        margin-top: 10px;
+
+    }
+
+    .table-div,
+    .input-div {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    table {
+        margin: 10px;
+        width: 100%;
+        border-collapse: collapse;
+        /* Ensures borders between cells are collapsed into a single border */
+
+    }
+
+    .title13 {
+
+        font-size: 2rem;
+        margin-left: -10px;
+        margin-bottom: 10px;
+    }
+
+    .title12 {
+        text-align: left;
+        font-size: 1.5rem;
+        margin-bottom: 40px;
+        margin-left: 10px;
+
+    }
+
+    .title20 {
+
+        font-size: 2rem;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .description12 {
+        color: rgba(255, 255, 255, 0.5);
+
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+        font-weight: 400;
+
+    }
+
+    .description9 {
+        margin-left: 10px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-size: 1.1rem;
+
+
+
+    }
+
+    input[type="text"] {
+        width: calc(49% - 18px);
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+
+    select {
+        width: 45%;
+
+
+    }
+
+    table {
+        margin-left: 10px;
+        width: 80%;
+
+
+    }
+
+    #text-selector {
+        width: calc(99% - 18px);
+        margin-left: 10px;
+
+    }
+
+    .custom-select {
+        margin-left: 10px;
+        margin-right: 2px;
+    }
+
+    .btn4 {
+        padding: 20px 0 20px 0px;
+        width: 50%;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .price-text {
+        margin-top: 370px;
+    }
+
+
+}

@@ -1,0 +1,754 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* shread style here */
+.same-text {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 1.4rem;
+
+}
+
+body {
+    background: rgb(0, 0, 0);
+    font-family: "Inter";
+}
+
+.btn1 {
+    margin-top: 10px;
+    margin-right: 13px;
+    padding: 15px 30px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 42px;
+    border: none;
+    background: rgb(230, 83, 60);
+    margin-bottom: 70px;
+
+}
+
+.btn3 {
+    margin-top: 20px;
+    margin-right: 13px;
+    padding: 15px 50px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 42px;
+    border: none;
+    background: rgb(230, 83, 60);
+
+}
+
+.btn2 {
+    margin-bottom: 70px;
+    margin-top: 10px;
+    padding: 15px 30px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    background-color: transparent;
+}
+
+.btn4 {
+    border-radius: 42px;
+    border: none;
+    background: rgb(230, 83, 60);
+
+    padding: 10px 40px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* Navbar */
+.custom-navbar {
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    max-width: 1210px;
+    margin: 0 auto;
+    display: flex;
+
+
+}
+
+.header {
+    background: linear-gradient(160deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+
+}
+
+.custom-nav-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+    font-style: italic;
+
+}
+
+.custom-navbar-container {
+    display: flex;
+    align-items: center;
+    max-height: 300px;
+
+}
+
+.custom-navbar-container img {
+    width: 100%;
+    height: auto;
+
+}
+
+
+.custom-menu-list {
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    display: flex;
+    padding: 0;
+
+
+}
+
+.custom-menu-item {
+    list-style: none;
+}
+
+.custom-nav-link {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    display: block;
+
+}
+
+.custom-link-text {
+    color: white;
+    border: 2px solid rgb(230, 83, 60);
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    display: inline-block;
+    text-align: center;
+    padding: 7px 20px;
+
+}
+
+.custom-menu-icon {
+    display: none;
+}
+
+/* Banner Section */
+
+.BannerContainer {
+    max-width: 1210px;
+    margin: 0 auto;
+    gap: 40px;
+    display: flex;
+
+}
+
+.TextSection,
+.ImageSection {
+    width: 50%;
+
+}
+
+.HeaderTitle {
+    font-size: 4.2rem;
+    margin-top: 80px;
+    font-weight: 900;
+    margin-bottom: 0px;
+    color: rgb(255, 255, 255);
+    line-height: 120%;
+
+}
+
+.Subtitle {
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.5);
+
+
+}
+
+.HighlightText {
+    font-family: 'Miama';
+    font-weight: normal;
+    font-size: 3.9rem;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+    font-style: italic;
+}
+
+.ImageSection {
+    position: relative;
+    margin-top: 10px;
+
+}
+
+.ImageSection img {
+    height: 100%;
+    margin-left: 210px;
+
+}
+
+.InfoBox1 {
+    margin-top: -510px;
+    margin-left: 460px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    box-sizing: border-box;
+    font-family: "Inter";
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+.TitleText {
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    padding: 10px 25px 5px 20px;
+}
+
+.TextContent {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.65);
+
+}
+
+.InfoBox2 {
+    margin-left: 130px;
+    margin-top: -150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    box-sizing: border-box;
+    font-family: "Inter";
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+.circle {
+    margin-left: 12px;
+    border-radius: 50%;
+    background: rgb(230, 83, 60);
+    width: 38px;
+    height: 38px;
+
+}
+
+.circle-text {
+    margin-left: 5px;
+}
+
+.circleTitle {
+    font-size: 1.9rem;
+    font-weight: 900;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    margin: 10px 25px 5px 5px;
+
+}
+
+.circlelDescription {
+    margin: 8px 25px 8px 5px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.65);
+
+}
+
+/* change the habit */
+main {
+    margin-top: 40px;
+}
+
+.practice-part {
+    margin-top: 50px;
+    max-width: 1210px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+
+
+}
+
+.title4 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+
+}
+
+.description4 {
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+.multi-image-container {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 150px;
+
+}
+
+.multi-image-container img {
+    border-radius: 50%;
+}
+
+.title5 {
+    color: rgb(255, 255, 255);
+
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.description5 {
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 400;
+
+}
+
+/* extra run section */
+.running {
+    margin-top: 50px;
+    max-width: 1210px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+
+}
+
+.run-extra {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    height: 371px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+
+}
+
+.runnig-text {
+    padding: 40px;
+
+}
+
+.runnig-image {
+
+    display: flex;
+    padding: 30px 30px 30px 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.runnig-image img {
+    border-radius: 18px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.title6 {
+    color: rgb(255, 255, 255);
+
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+
+
+}
+
+.description6 {
+    color: rgba(255, 255, 255, 0.5);
+
+    font-size: 1.2rem;
+    font-weight: 400;
+
+}
+
+/* outside div */
+.outside-greydiv {
+    width: 100%;
+    background: rgb(34, 34, 34);
+    height: 400px;
+}
+
+/* bmi */
+.bmi {
+    max-width: 1200px;
+    background: rgb(34, 34, 34);
+    height: 400px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.bmi-calulation {
+    margin: 10px;
+}
+
+.table-div,
+.input-div {
+    width: 50%;
+}
+
+.table-div {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.input-div {
+    margin-top: 40px;
+    text-align: left;
+}
+
+table {
+    margin: 0 auto;
+    width: 60%;
+    border-collapse: collapse;
+    /* Ensures borders between cells are collapsed into a single border */
+
+}
+
+th,
+td {
+    font-size: 1.2rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 8px;
+    /* Adds padding inside each cell */
+    text-align: left;
+    /* Aligns text to the left */
+    color: rgba(255, 255, 255, 0.5);
+}
+
+th {
+    color: white;
+}
+
+.bmi-text {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.title12 {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 40px;
+
+}
+
+.title13,
+.title20 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+
+}
+
+.description12 {
+    color: rgba(255, 255, 255, 0.5);
+
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+    font-weight: 400;
+
+}
+
+input[type="text"],
+select {
+
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    padding: 10px;
+    /* Adjust padding as needed */
+    border: none;
+    /* Remove the border */
+    font-size: 14px;
+    /* Optional: adjust the font size as needed */
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+
+input[type="text"] {
+    width: calc(40% - 22px);
+}
+
+select {
+    width: calc(40% - 22px);
+    padding-right: 30px;
+}
+
+#text-selector {
+    width: calc(80% - 28px);
+
+}
+
+.custom-select {
+
+    margin-right: 20px;
+}
+
+/* Price */
+.price {
+    max-width: 1210px;
+    margin: 0 auto;
+}
+
+.price-text {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.price-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+
+}
+
+.card {
+    padding: 30px;
+    background: rgb(34, 34, 34);
+    margin-top: 30px;
+    border-radius: 8px;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.title8 {
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.title9 {
+    color: rgb(230, 83, 60);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.icon-spacing {
+
+    color: white;
+    margin-right: 8px;
+    /* Adjust the value as needed */
+}
+
+.title10 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.description11 {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+/* team */
+.mettteam {
+    max-width: 1210px;
+    margin: 0 auto;
+
+}
+
+.team {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.team-member {
+    max-width: 1200px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.member {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    padding: 25px;
+
+}
+
+.member img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+#img1,
+#img2,
+#img3,
+#img4,
+#img5,
+#img6 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 18px;
+    min-height: 200px;
+}
+
+.name1,
+.name2,
+.name3,
+.name4,
+.name5,
+.name6 {
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+
+.title7 {
+    font-family: "Inter";
+    font-size: 1.2rem;
+    margin: 0;
+
+}
+
+.description7 {
+    font-family: "Inter";
+    color: rgb(155, 145, 150);
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* footer */
+.footer {
+    background: rgba(255, 255, 255, 0.1);
+    height: 480px;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.footer-container {
+    max-width: 1210px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 220px;
+    padding: 20px;
+}
+
+.footer hr {
+    width: 65%;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin: 20px auto;
+    display: block;
+}
+
+.text4 {
+    color: rgb(230, 83, 60);
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-top: 65px;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.description9 {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    font-weight: 400;
+
+
+}
+
+.text5 {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 55px;
+
+}
+
+.description10 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.5rem;
+    font-weight: 400;
+
+}
+
+
+.footer-text {
+    margin-left: -80px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 30px;
+
+}
